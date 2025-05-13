@@ -1,0 +1,41 @@
+# Ejemplos de programacion orientada a objetos 
+
+## 1. Crear el archivo **.gitignore**
+
+se crea el archivo **.gitignore** para configurar los archivos que no se sincronizaran con el reporitorio
+
+
+*.pyc
+__pycache__/
+.venv/
+````
+
+## 3. crear el **virtual environment **
+se crea el ambiente virtual de trabajo de python
+
+````shell
+python3 -m venv .venv
+````
+"" 3. iniciar el **virtual environment**
+se activa el virtual environment para instalar las librerias necesarias para el proyecto
+````shellsorce .venv/bin/activate
+````
+## 4. actualizar **pip** dentro del **virtual environment**
+se actualiz la version instalada de **pip** para poder descargar las ultimas versiones de las librerias.
+
+````shell
+pip install --upgrade pip 
+````
+
+##5. verifica las librerias instaladas 
+se verifica que librerias y versiones se tienen instaladas 
+````shell
+pip freeze
+````
+
+## 6. instalar librerias que se van a ocupar en el proyecto 
+se instalan las librerias 
+````shell
+pip install web.py
+````
+
